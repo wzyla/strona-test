@@ -1,0 +1,14 @@
+Fonty (Google Fonts):
+- IBM Plex Sans Condensed
+- IBM Plex Sans
+
+Kolory:
+#333333
+#000000
+#ffffff
+#D8D8D8
+
+media-queries:
+@media (min-width: 576px) { ... }
+@media (min-width: 992px) { ... }
+
