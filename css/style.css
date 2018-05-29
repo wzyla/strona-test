@@ -50,3 +50,19 @@ body{
   color: #333;
   padding-left: 1.5rem; 
 }
+
+.slider-container{
+  padding: 0;
+  overflow: hidden;
+}
+
+.main-container{
+  background: #fff;
+}
+
+.main-container >article >header > h2{
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
+}
