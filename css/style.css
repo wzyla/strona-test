@@ -1,14 +1,52 @@
+html { 
+  font-size: 62.5%; /* to jest 10px */ /* podstawa do skalowania, zmaina tego powoduje zmianę całęj strony */
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #333;
+  font-weight: 400;
+} 
+
+
+body{
+  background: #D8D8D8;
+}
+
 .hidden{
   display: none;
 }
 
 .container{
   box-sizing: border-box;
-  width:992px;
+  width:57.6rem;
   margin: 0 auto;
+  padding: 0 1.5rem;
 }
 
 .container-fluid{
   box-sizing: border-box;
   width: 100%;
+}
+
+.navbar-top-container-fluid{
+  background: #fff;
+}
+
+.navbar-top-container{
+  display: flex;
+  align-items: center;
+  height: 5rem; /* to jest 50 px */
+}
+
+.navbar-top > a
+{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navbar-top > a >span{
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #333;
+  padding-left: 1.5rem; 
 }
