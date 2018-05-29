@@ -1,0 +1,14 @@
+.hidden{
+  display: none;
+}
+
+.container{
+  box-sizing: border-box;
+  width:992px;
+  margin: 0 auto;
+}
+
+.container-fluid{
+  box-sizing: border-box;
+  width: 100%;
+}
