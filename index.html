@@ -24,7 +24,11 @@
   </div> 
 
   <section class="container slider-container">
-      <img src="img/sm-header-img.jpg" srcset="img/sm-header-img.jpg 1x, img/sm-header-img@2x.jpg 2x" alt="navbar-logo">
+      <picture>
+        <source media="(min-width: 576px) and (max-width:991px)" srcset="img/sm-header-img.jpg 1x, img/sm-header-img@2x.jpg 2x">    
+        <source media="(min-width: 992px)" srcset="img/lg-header-img.jpg 1x, img/lg-header-img@2x.jpg 2x">   
+        <img src="img/sm-header-img.jpg" srcset="img/sm-header-img.jpg 1x, img/sm-header-img@2x.jpg 2x" alt="navbar-logo">
+      </picture>    
   </section>
   
   <main class="container main-container">
@@ -37,21 +41,37 @@
       <div class="main-container-offers">
         <figure>
           <!-- przerób img na picture -->
-          <img src="img/sm-ico-1.png" srcset="img/sm-ico-1.png 1x, img/sm-ico-1@2x.png 2x"alt="Lorem Ipsum">
+          <picture>
+              <source media="(min-width: 576px) and (max-width:991px)" srcset="img/sm-ico-1.png 1x, img/sm-ico-1@2x.png 2x">    
+              <source media="(min-width: 992px)" srcset="img/lg-ico-1.png 1x, img/lg-ico-1@2x.png 2x">   
+              <img src="img/sm-ico-1.png" srcset="img/sm-ico-1.png 1x, img/sm-ico-1@2x.png 2x" alt="navbar-logo">
+          </picture>  
           <figcaption><h3>
             Lorem Ipsum
           </h3></figcaption>
         </figure>
+
+
         <figure>
           <!-- przerób img na picture -->
-          <img src="img/sm-ico-2.png" srcset="img/sm-ico-2.png 1x, img/sm-ico-2@2x.png 2x"alt="Lorem Ipsum">
+          <picture>
+              <source media="(min-width: 576px) and (max-width:991px)" srcset="img/sm-ico-2.png 1x, img/sm-ico-2@2x.png 2x">    
+              <source media="(min-width: 992px)" srcset="img/lg-ico-2.png 1x, img/lg-ico-2@2x.png 2x">   
+              <img src="img/sm-ico-2.png" srcset="img/sm-ico-2.png 1x, img/sm-ico-2@2x.png 2x" alt="navbar-logo">
+          </picture>  
           <figcaption><h3>
             Lorem Ipsum
           </h3></figcaption>
         </figure>
+
+
         <figure>
           <!-- przerób img na picture -->
-          <img src="img/sm-ico-3.png" srcset="img/sm-ico-3.png 1x, img/sm-ico-3@2x.png 2x"alt="Lorem Ipsum">
+          <picture>
+              <source media="(min-width: 576px) and (max-width:991px)" srcset="img/sm-ico-3.png 1x, img/sm-ico-3@2x.png 2x">    
+              <source media="(min-width: 992px)" srcset="img/lg-ico-3.png 1x, img/lg-ico-3@2x.png 2x">   
+              <img src="img/sm-ico-3.png" srcset="img/sm-ico-3.png 1x, img/sm-ico-3@2x.png 2x" alt="navbar-logo">
+          </picture>  
           <figcaption><h3>
             Lorem Ipsum
           </h3></figcaption>
@@ -62,6 +82,19 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum inventore, iusto repudiandae omnis, provident doloremque voluptatum aliquam eum pariatur accusantium ratione quaerat optio fugiat laborum perspiciatis est, unde explicabo rerum.</p> 
       </footer>
     </article>
+
+    <section class="container photos-container">
+        <picture>
+            <source media="(min-width: 576px) and (max-width:991px)" srcset="img/sm-img-1.jpg 1x, img/sm-img-1@2x.jpg 2x">    
+            <source media="(min-width: 992px)" srcset="img/lg-img-1.jpg 1x, img/lg-img-1@2x.jpg2x">   
+            <img src="img/img-1.jpg" srcset="img/sm-img-1.jpg 1x, img/sm-img-1@2x.jpg 2x" alt="navbar-logo">
+        </picture>
+        <picture>
+            <source media="(min-width: 576px) and (max-width:991px)" srcset="img/sm-img-2.jpg 1x, img/sm-img-2@2x.jpg 2x">    
+            <source media="(min-width: 992px)" srcset="img/lg-img-2.jpg 1x, img/lg-img-2@2x.jpg2x">   
+            <img src="img/img-2.jpg" srcset="img/sm-img-2.jpg 1x, img/sm-img-2@2x.jpg 2x" alt="navbar-logo">
+        </picture>
+    </section>
   </main>
 
 </body>
